@@ -50,13 +50,13 @@ legend("topright", legend=legendValue, inset=.05, lwd=2, lty=c(1, 1, 1, 1, 2), c
 
 # Chi-squared distribution
 # set sequence for different values of k (degrees of freedom)
-k <- c(1, 1.5, 2, 4, 6, 9)
+k <- c(1, 2, 4, 6, 9)
 # set colors
 color <- c("blue", "brown", "red", "gold", "darkgreen", "darkmagenta", "aquamarine4", "chocolate3", "chartreuse3")
 col = 1 # variable for color change
 # save plot as png file
 png("chiSquared_distribution.png")
-x <- seq(0, 10, length=50)
+x <- seq(0, 20, length=50)
 # plot chi squared distribution for different values of k
 plot(x, dchisq(x, 1), col=color[1], ylim=c(0, 0.5)) # k = 1
 for (i in k) {
