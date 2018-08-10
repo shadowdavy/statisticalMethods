@@ -1,3 +1,7 @@
+install.packages("IRkernel")
+install.packages("IRdisplay")
+install.packages('repr')
+install.packages('rzmq')
 install.packages("tidyverse")
 install.packages("rmarkdown")
 install.packages("httr")
