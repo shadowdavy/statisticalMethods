@@ -1,6 +1,4 @@
 install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))
-devtools::install_github('IRkernel/IRkernel')
-
 install.packages('repr')
 install.packages('rzmq')
 install.packages("tidyverse")
@@ -9,3 +7,5 @@ install.packages("httr")
 install.packages("shinydashboard")
 install.packages('leaflet')
 install.packages("ggplot2")
+
+devtools::install_github('IRkernel/IRkernel')
