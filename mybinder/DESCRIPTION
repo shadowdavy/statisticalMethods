@@ -1,0 +1,9 @@
+Package: rjupyterbinder
+Title: statistics course
+Version: 0.0.1
+License: BSD 3-Clause
+LazyData: true
+Depends:
+    R (>= 3.1.0)
+Imports: ggplot2
+Encoding: UTF-8
